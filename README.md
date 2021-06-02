@@ -2,6 +2,9 @@
 
 # Codesmell Dark
 
+<img width="980" alt="code_smell_theme" src="https://user-images.githubusercontent.com/8049061/120548353-e1396a80-c3b7-11eb-8615-23d40a636b9e.png">
+
+
 ## Neovim
 
 ```console
