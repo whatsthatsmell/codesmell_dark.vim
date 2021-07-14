@@ -12,6 +12,8 @@ let s:colors.red = '#dfa347'
 let s:colors.white = '#f6f8fa'
 let s:colors.yellow = '#ffea7f'
 
+let s:colors.terminal_background = '#000000'
+let s:colors.terminal_background_nc = '#0C0C0C'
 let s:colors.background = s:colors.black
 let s:colors.background_lighter = '#2d3237'
 let s:colors.foreground = s:colors.white

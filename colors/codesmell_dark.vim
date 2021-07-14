@@ -49,6 +49,9 @@ call s:HL('CursorIM', s:colors.cursor_fg, s:colors.cursor_bg)
 call s:HL('CursorColumn', s:colors.none, s:colors.cursor_guide)
 call s:HL('CursorLine', s:colors.none, s:colors.cursor_guide)
 " ----------------------------------------------------
+call s:HL('DarkenedTerm', s:colors.none, s:colors.terminal_background)
+call s:HL('DarkenedTermNC', s:colors.none, s:colors.terminal_background_nc)
+" ----------------------------------------------------
 call s:HL('Directory', s:colors.cyan, s:colors.none)
 " ----------------------------------------------------
 call s:HL('DiffAdd', s:colors.green, s:colors.background)
