@@ -1,6 +1,6 @@
 let s:colors = {}
 
-let s:colors.black = '#191919'
+let s:colors.black = '#161616'
 let s:colors.blue = '#8f91cb'
 let s:colors.bright_red = '#f62539'
 let s:colors.cyan = '#89c2d2'
@@ -21,7 +21,7 @@ let s:colors.foreground = s:colors.white
 let s:colors.selection_bg = '#8d8d8d'
 let s:colors.selection_fg = s:colors.background
 
-let s:colors.color_col = '#16191C'
+let s:colors.color_col = '#191919'
 let s:colors.cursor_bg = s:colors.green
 let s:colors.cursor_fg = s:colors.background
 let s:colors.cursor_guide = '#1c2024'
