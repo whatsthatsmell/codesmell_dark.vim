@@ -1,8 +1,8 @@
+
 ![Neovim](https://img.shields.io/badge/editor-Neovim-green?logo=neovim&style=plastic)
 
 # Codesmell Dark
-
-<img width="980" alt="code_smell_theme" src="https://user-images.githubusercontent.com/8049061/120548353-e1396a80-c3b7-11eb-8615-23d40a636b9e.png">
+<img width="555" alt="theme-screen" src="https://user-images.githubusercontent.com/8049061/128247993-0376a22b-487c-48a4-8dd6-75b1c4daf653.png">
 
 
 ## Neovim
