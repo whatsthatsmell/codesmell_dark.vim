@@ -13,6 +13,7 @@ let s:colors.red = '#dfa347'
 let s:colors.orange = '#EA9B38'
 let s:colors.white = '#f6f8fa'
 let s:colors.yellow = '#ffea7f'
+let s:colors.redish_white = '#FDEDD5'
 
 let s:colors.terminal_background = '#000000'
 let s:colors.terminal_background_nc = '#0C0C0C'
