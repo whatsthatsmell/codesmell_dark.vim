@@ -20,7 +20,7 @@ set fillchars+=vert:│
 ```
 
 **TODUAS:**
-- [ ] Rewrite in Lua 
-- [ ] Target Treesitter
+- [ ] Rewrite in Lua (underway) 
+- [x] Target Treesitter (partially done)
 
 _Credit:_ https://github.com/yunlingz/ci_dark
