@@ -37,6 +37,7 @@ let s:colors.win_bg = '#3a3f43'
 let s:colors.none = 'NONE'
 let s:colors.underline = 'underline'
 let s:colors.undercurl = 'undercurl'
+let s:colors.italic = 'italic'
 let s:colors.bold = 'NONE'
 if get(g:, 'codesmell_dark_enable_bold', 0) == 1
   let s:colors.bold = 'bold'

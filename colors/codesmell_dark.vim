@@ -183,12 +183,15 @@ call s:HL('ALEError', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEWarning', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
-" TreeSitter
+" Tree-sitter
 " ----------------------------------------------------
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
 call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
-call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.bold)
+call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.italic)
+" --- Move language specific stuff to after/ft
+call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
+call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
 
 " rainbow
 " ----------------------------------------------------
