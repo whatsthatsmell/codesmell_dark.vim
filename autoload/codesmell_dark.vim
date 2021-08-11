@@ -14,7 +14,8 @@ let s:colors.orange = '#EA9B38'
 let s:colors.white = '#f6f8fa'
 let s:colors.yellow = '#ffea7f'
 let s:colors.redish_white = '#FDEDD5'
-
+let s:colors.mid_green = '#1B9C36'
+let s:colors.bright_purple= '#4F5AB7'
 let s:colors.terminal_background = '#000000'
 let s:colors.terminal_background_nc = '#0C0C0C'
 let s:colors.background = s:colors.black

@@ -189,9 +189,12 @@ call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
 call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.italic)
-" --- Move language specific stuff to after/ft
+" --- Language specific stuff
 call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
+" --- a little Rust specific TS syntax highlighting
+call s:HL('rustTSLabel', s:colors.mid_green, s:colors.none)
+call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.none)
 
 " rainbow
 " ----------------------------------------------------
