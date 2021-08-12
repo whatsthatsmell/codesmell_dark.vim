@@ -1,22 +1,25 @@
 ![Neovim](https://img.shields.io/badge/editor-Neovim-green?logo=neovim&style=plastic)
 
-# Codesmell Dark
+# Codesmell Dark     💩
 _a Neovim Color Scheme_
 
 ## Featuring
 - Optimization for `Treesitter`
+  - Additional highlighting for `Rust`, `Lua` and `Vim` files
 - Highlighting of currently popular plugins such as the wonderful [Telescope](https://github.com/nvim-telescope/telescope.nvim) 🔭
 - Highlighting of all your tried and true favorite plugins.
-- Perfectly compatible with Vim. But, you get more granularity and speed with Neovim.
+- Compatibility with Vim. _But_, you get more granularity and speed with Neovim.
+- Full customizability via `Treesitter` and non-Treesitter **HL** groups
 
-<img width="555" alt="theme-screen" src="https://user-images.githubusercontent.com/8049061/128247993-0376a22b-487c-48a4-8dd6-75b1c4daf653.png">
+<img width="1203" alt="codesmelldark-screenshot-ret" src="https://user-images.githubusercontent.com/8049061/129188249-796db6a1-73fb-49ac-94ab-819574eab984.png">
+
 
 ### Installation and Setup
 
 ```lua
--- packer(but, use your favorite plugin manager):
+-- packer(but, use your favorite plugin manager)
 use "whatsthatsmell/codesmell_dark.vim"
--- configs (just yank what's in quotes and drop in your .vimrc if you're not Lua'd _yet_)
+-- configs (just yank what's in quotes and drop in your .vimrc if you're not Lua'd yet)
 vim.cmd "set fillchars+=vert:│"
 vim.cmd "colorscheme codesmell_dark"
 ```
