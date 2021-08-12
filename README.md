@@ -1,6 +1,6 @@
 ![Neovim](https://img.shields.io/badge/editor-Neovim-green?logo=neovim&style=plastic)
 
-# Codesmell Dark     💩
+# CodeSmell Dark     💩
 _a Neovim Color Scheme_
 
 ## Featuring
