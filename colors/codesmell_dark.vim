@@ -196,6 +196,12 @@ call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
 call s:HL('rustTSLabel', s:colors.mid_green, s:colors.none)
 call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.none)
 
+" Telescopic highlighting
+" ----------------------------------------------------
+call s:HL('TelescopeMatching', s:colors.green, s:colors.none)
+call s:HL('TelescopePromptPrefix', s:colors.bright_green, s:colors.none)
+call s:HL('TelescopeBorder', s:colors.bright_green, s:colors.none)
+
 " rainbow
 " ----------------------------------------------------
 if !exists('g:rainbow_conf')

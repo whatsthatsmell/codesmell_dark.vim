@@ -22,7 +22,7 @@ let s:colors.background = s:colors.black
 let s:colors.background_lighter = '#2d3237'
 let s:colors.foreground = s:colors.white
 
-let s:colors.selection_bg = '#8d8d8d'
+let s:colors.selection_bg = '#7E7E7E'
 let s:colors.selection_fg = s:colors.background
 
 let s:colors.color_col = '#191919'
