@@ -26,5 +26,6 @@ vim.cmd "colorscheme codesmell_dark"
 
 ### TODUA:
 - [ ] Rewrite in Lua (currently a WIP)
+  - Will keep vimL version up as well
 
 _Thanks to:_ https://github.com/yunlingz/ci_dark
