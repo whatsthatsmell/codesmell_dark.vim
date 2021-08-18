@@ -11,8 +11,7 @@ _a Neovim Color Scheme_
 - Compatibility with Vim. _But_, you get more granularity and speed with Neovim.
 - Full customizability via `Treesitter` and non-Treesitter **HL** groups
 
-<img width="1203" alt="codesmelldark-screenshot-ret" src="https://user-images.githubusercontent.com/8049061/129188249-796db6a1-73fb-49ac-94ab-819574eab984.png">
-
+<img width="1920" alt="codesmelldark-screenshot-darker" src="https://user-images.githubusercontent.com/8049061/129898579-f7ef6f98-4555-45e2-9117-fee7146f0701.png">
 
 ### Installation and Setup
 
