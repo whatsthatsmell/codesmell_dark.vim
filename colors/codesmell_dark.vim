@@ -195,6 +195,9 @@ call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
 " --- a little Rust specific TS syntax highlighting
 call s:HL('rustTSLabel', s:colors.mid_green, s:colors.none)
 call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.none)
+call s:HL('rustTSInclude', s:colors.magenta, s:colors.none, s:colors.bold)
+call s:HL('rustTSFuncMacro', s:colors.redish_white, s:colors.none)
+call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
 
 " Telescopic highlighting
 " ----------------------------------------------------
