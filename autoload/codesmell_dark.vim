@@ -1,6 +1,6 @@
 let s:colors = {}
 
-let s:colors.black = '#161616'
+let s:colors.black = '#131313'
 let s:colors.blue = '#8f91cb'
 let s:colors.bright_red = '#f62539'
 let s:colors.cyan = '#90CDDE'
