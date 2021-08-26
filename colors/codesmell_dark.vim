@@ -183,7 +183,7 @@ call s:HL('ALEError', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEWarning', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
-" Tree-sitter
+" Tree-sitter & language specific highlighting
 " ----------------------------------------------------
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
