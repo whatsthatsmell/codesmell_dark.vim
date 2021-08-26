@@ -189,6 +189,7 @@ call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
 call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.italic)
+call s:HL('TSStringRegex', s:colors.red, s:colors.none, s:colors.bold)
 " --- Language specific stuff
 call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
