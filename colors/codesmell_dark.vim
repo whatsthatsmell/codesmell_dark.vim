@@ -101,7 +101,7 @@ call s:HL('QuickFixLine', s:colors.foreground, s:colors.selection_bg)
 call s:HL('Search', s:colors.background, s:colors.light_grey_green)
 call s:HL('SpecialKey', s:colors.grey, s:colors.none)
 " ----------------------------------------------------
-call s:HL('SpellBad', s:colors.none, s:colors.none, s:colors.undercurl)
+call s:HL('SpellBad', s:colors.bright_red, s:colors.none, s:colors.undercurl)
 call s:HL('SpellCap', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('SpellLocal', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('SpellRare', s:colors.none, s:colors.none, s:colors.underline)
