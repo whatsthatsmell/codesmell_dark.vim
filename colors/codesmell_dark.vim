@@ -91,10 +91,10 @@ call s:HL('NonText', s:colors.grey, s:colors.none)
 " base color
 call s:HL('Normal', s:colors.foreground, s:colors.background)
 " ----------------------------------------------------
-call s:HL('Pmenu', s:colors.light_bright_green, s:colors.terminal_background_nc)
+call s:HL('Pmenu', s:colors.green, s:colors.background_lighter)
 call s:HL('PmenuSel', s:colors.foreground, s:colors.selected_bg)
 call s:HL('PmenuSbar', s:colors.terminal_background_nc, s:colors.terminal_background)
-call s:HL('PmenuThumb', s:colors.terminal_background_nc, s:colors.terminal_background_nc)
+call s:HL('PmenuThumb', s:colors.terminal_background_nc, s:colors.green)
 " ----------------------------------------------------
 call s:HL('Question', s:colors.red, s:colors.none)
 call s:HL('QuickFixLine', s:colors.foreground, s:colors.selection_bg)
