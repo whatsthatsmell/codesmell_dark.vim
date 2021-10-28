@@ -205,6 +205,9 @@ call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
 call s:HL('TelescopeMatching', s:colors.green, s:colors.none)
 call s:HL('TelescopePromptPrefix', s:colors.bright_green, s:colors.none)
 call s:HL('TelescopeBorder', s:colors.bright_green, s:colors.none)
+call s:HL('TelescopeResultsBorder', s:colors.neovim_blue, s:colors.none)
+call s:HL('TelescopePreviewBorder', s:colors.neovim_blue, s:colors.none)
+call s:HL('TelescopePromptBorder', s:colors.neovim_blue, s:colors.none)
 
 " rainbow
 " ----------------------------------------------------

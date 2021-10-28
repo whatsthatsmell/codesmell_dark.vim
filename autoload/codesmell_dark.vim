@@ -22,7 +22,8 @@ let s:colors.terminal_background_nc = '#0C0C0C'
 let s:colors.background = s:colors.black
 let s:colors.background_lighter = '#2d3237'
 let s:colors.foreground = s:colors.white
-
+let s:colors.neovim_green = '#54A23D'
+let s:colors.neovim_blue = '#3791D4'
 let s:colors.selection_bg = '#7E7E7E'
 let s:colors.selection_fg = s:colors.background
 
