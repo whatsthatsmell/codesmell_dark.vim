@@ -209,6 +209,13 @@ call s:HL('TelescopeResultsBorder', s:colors.neovim_blue, s:colors.none)
 call s:HL('TelescopePreviewBorder', s:colors.neovim_blue, s:colors.none)
 call s:HL('TelescopePromptBorder', s:colors.neovim_blue, s:colors.none)
 
+" nvim-notify highlighting
+" ----------------------------------------------------
+call s:HL('NotifyDEBUGBody', s:colors.redish_white, s:colors.none)
+call s:HL('NotifyDEBUGTitle', s:colors.neovim_blue, s:colors.none)
+call s:HL('NotifyDEBUGIcon', s:colors.neovim_green, s:colors.none)
+call s:HL('NotifyDEBUGBorder', s:colors.neovim_blue, s:colors.none)
+
 " rainbow
 " ----------------------------------------------------
 if !exists('g:rainbow_conf')
