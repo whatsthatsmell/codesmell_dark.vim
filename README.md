@@ -23,7 +23,7 @@ vim.cmd "set fillchars+=vert:│"
 vim.cmd "colorscheme codesmell_dark"
 ```
 
-### TODUA:
+### @TODOUA:
 - [ ] Rewrite in Lua (currently a WIP)
   - Will keep vimL version up as well
 

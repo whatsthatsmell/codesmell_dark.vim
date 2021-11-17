@@ -48,8 +48,8 @@ call s:HL('markdownH2', s:colors.yellow, s:colors.none, s:colors.bold)
 call s:HL('markdownH2Delimiter', s:colors.yellow, s:colors.none, s:colors.bold)
 call s:HL('markdownH3', s:colors.green, s:colors.none, s:colors.bold)
 call s:HL('markdownH3Delimiter', s:colors.green, s:colors.none, s:colors.bold)
-call s:HL('markdownCode', s:colors.green, s:colors.none, s:colors.bold)
-call s:HL('markdownCodeDelimiter', s:colors.light_grey_green, s:colors.none, s:colors.bold)
+call s:HL('markdownCode', s:colors.neovim_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownCodeDelimiter', s:colors.grey_green, s:colors.none, s:colors.bold)
 call s:HL('markdownListMarker', s:colors.blue, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('ColorColumn', s:colors.none, s:colors.color_col)
@@ -79,7 +79,7 @@ call s:HL('Folded', s:colors.background, s:colors.magenta, s:colors.bold)
 call s:HL('FoldColumn', s:colors.magenta, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('SignColumn', s:colors.none, s:colors.none)
-call s:HL('IncSearch', s:colors.background, s:colors.light_grey_green)
+call s:HL('IncSearch', s:colors.background, s:colors.grey_green)
 call s:HL('LineNr', s:colors.grey, s:colors.none)
 call s:HL('CursorLineNr', s:colors.foreground, s:colors.none)
 call s:HL('MatchParen', s:colors.red, s:colors.none, s:colors.undercurl)
@@ -98,7 +98,7 @@ call s:HL('PmenuThumb', s:colors.terminal_background_nc, s:colors.green)
 " ----------------------------------------------------
 call s:HL('Question', s:colors.red, s:colors.none)
 call s:HL('QuickFixLine', s:colors.foreground, s:colors.selection_bg)
-call s:HL('Search', s:colors.background, s:colors.light_grey_green)
+call s:HL('Search', s:colors.background, s:colors.neovim_green)
 call s:HL('SpecialKey', s:colors.grey, s:colors.none)
 " ----------------------------------------------------
 call s:HL('SpellBad', s:colors.bright_red, s:colors.none, s:colors.undercurl)
@@ -185,6 +185,7 @@ call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
 " Tree-sitter & language specific highlighting
 " ----------------------------------------------------
+call s:HL('TSComment', s:colors.grey_green, s:colors.none)
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
 call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
@@ -215,6 +216,10 @@ call s:HL('NotifyDEBUGBody', s:colors.redish_white, s:colors.none)
 call s:HL('NotifyDEBUGTitle', s:colors.neovim_blue, s:colors.none)
 call s:HL('NotifyDEBUGIcon', s:colors.neovim_green, s:colors.none)
 call s:HL('NotifyDEBUGBorder', s:colors.neovim_blue, s:colors.none)
+
+" gitsigns highlighting
+" ----------------------------------------------------
+call s:HL('GitSignsCurrentLineBlame', s:colors.dark_grey, s:colors.none)
 
 " rainbow
 " ----------------------------------------------------
