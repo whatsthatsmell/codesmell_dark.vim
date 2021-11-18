@@ -185,7 +185,7 @@ call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
 " Tree-sitter & language specific highlighting
 " ----------------------------------------------------
-call s:HL('TSComment', s:colors.grey_green, s:colors.none)
+call s:HL('TSComment', s:colors.dark_grey, s:colors.none)
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
 call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
@@ -219,7 +219,7 @@ call s:HL('NotifyDEBUGBorder', s:colors.neovim_blue, s:colors.none)
 
 " gitsigns highlighting
 " ----------------------------------------------------
-call s:HL('GitSignsCurrentLineBlame', s:colors.dark_grey, s:colors.none)
+call s:HL('GitSignsCurrentLineBlame', s:colors.grey_green, s:colors.none)
 
 " rainbow
 " ----------------------------------------------------
