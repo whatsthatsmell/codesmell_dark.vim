@@ -221,6 +221,11 @@ call s:HL('NotifyDEBUGBorder', s:colors.neovim_blue, s:colors.none)
 " ----------------------------------------------------
 call s:HL('GitSignsCurrentLineBlame', s:colors.grey_green, s:colors.none)
 
+" IndentBlanklineIndent highlighting
+" ----------------------------------------------------
+call s:HL('IndentBlanklineIndent1', s:colors.dark_grey, s:colors.none)
+call s:HL('IndentBlanklineIndent2', s:colors.grey_green, s:colors.none)
+
 " rainbow
 " ----------------------------------------------------
 if !exists('g:rainbow_conf')
@@ -239,12 +244,6 @@ if !has_key(g:rainbow_conf['separately'], 'lisp')
   let g:rainbow_conf['separately']['lisp'] = {
     \ 'guifgs': g:rainbow_conf['guifgs'],
     \ }
-endif
-
-" indentline
-" ----------------------------------------------------
-if !exists('g:indentLine_color_gui')
-  let g:indentLine_color_gui = s:colors.split
 endif
 
 " ---------------------------------------------------------------------
