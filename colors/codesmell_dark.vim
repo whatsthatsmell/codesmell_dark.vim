@@ -42,15 +42,17 @@ let s:colors = codesmell_dark#get_colors()
 
 " Color Scheme
 " Markdown----------------------------------------------------
-call s:HL('markdownH1', s:colors.magenta, s:colors.none, s:colors.bold)
-call s:HL('markdownH1Delimiter', s:colors.magenta, s:colors.none, s:colors.bold)
+call s:HL('markdownH1', s:colors.neovim_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownH1Delimiter', s:colors.neovim_blue, s:colors.none, s:colors.bold)
 call s:HL('markdownH2', s:colors.yellow, s:colors.none, s:colors.bold)
 call s:HL('markdownH2Delimiter', s:colors.yellow, s:colors.none, s:colors.bold)
 call s:HL('markdownH3', s:colors.green, s:colors.none, s:colors.bold)
 call s:HL('markdownH3Delimiter', s:colors.green, s:colors.none, s:colors.bold)
-call s:HL('markdownCode', s:colors.neovim_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownCode', s:colors.blue_grey, s:colors.none, s:colors.bold)
 call s:HL('markdownCodeDelimiter', s:colors.grey_green, s:colors.none, s:colors.bold)
-call s:HL('markdownListMarker', s:colors.blue, s:colors.none, s:colors.bold)
+call s:HL('markdownListMarker', s:colors.mid_green, s:colors.none, s:colors.bold)
+call s:HL('markdownLinkText', s:colors.dodger_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownLink', s:colors.dodger_blue, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('ColorColumn', s:colors.none, s:colors.color_col)
 call s:HL('Conceal', s:colors.blue, s:colors.none)

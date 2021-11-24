@@ -2,6 +2,7 @@ let s:colors = {}
 
 let s:colors.black = '#131313'
 let s:colors.blue = '#8f91cb'
+let s:colors.dodger_blue = '#1E90FF'
 let s:colors.bright_red = '#f62539'
 let s:colors.cyan = '#90CDDE'
 let s:colors.grey = '#959da5'
