@@ -223,6 +223,23 @@ call s:HL('NotifyDEBUGBorder', s:colors.neovim_blue, s:colors.none)
 " ----------------------------------------------------
 call s:HL('GitSignsCurrentLineBlame', s:colors.grey_green, s:colors.none)
 
+" diagnostics highlighting
+" ----------------------------------------------------
+call s:HL('DiagnosticsSignError', s:colors.bright_red, s:colors.none)
+call s:HL('DiagnosticSignWarn', s:colors.orange, s:colors.none)
+call s:HL('DiagnosticSignInfo', s:colors.dodger_blue, s:colors.none)
+call s:HL('DiagnosticSignHint', s:colors.bright_green, s:colors.none)
+
+" nvim-cmp highlighting
+" ----------------------------------------------------
+call s:HL('CmpItemAbbrMatchFuzzy', s:colors.bright_green, s:colors.none)
+call s:HL('CmpItemAbbrMatch', s:colors.bright_green, s:colors.none)
+call s:HL('CmpItemKindKeyword', s:colors.magenta, s:colors.none)
+call s:HL('CmpItemKindMethod', s:colors.bright_green, s:colors.none)
+call s:HL('CmpItemKindVariable', s:colors.light_bright_green, s:colors.none)
+call s:HL('CmpItemKindFunction', s:colors.blue, s:colors.none)
+call s:HL('CmpItemKindText', s:colors.redish_white, s:colors.none)
+
 " IndentBlanklineIndent highlighting
 " ----------------------------------------------------
 call s:HL('IndentBlanklineIndent1', s:colors.dark_grey, s:colors.none)
