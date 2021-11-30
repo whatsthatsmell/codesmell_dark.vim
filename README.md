@@ -6,12 +6,13 @@ _a Neovim Color Scheme_
 ## Featuring
 - Optimization for `Treesitter`
   - Additional highlighting for `Rust`, `Lua` and `Vim` files
-- Highlighting of currently popular plugins such as the wonderful [Telescope](https://github.com/nvim-telescope/telescope.nvim) 🔭
+- Highlighting of currently popular plugins such as the wonderful [Telescope](https://github.com/nvim-telescope/telescope.nvim) 🔭 and [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - Highlighting of all your tried and true favorite plugins.
 - Compatibility with Vim. _But_, you get more granularity and speed with Neovim.
 - Full customizability via `Treesitter` and non-Treesitter **HL** groups
 
-<img width="1920" alt="codesmelldark-screenshot-darker" src="https://user-images.githubusercontent.com/8049061/129898579-f7ef6f98-4555-45e2-9117-fee7146f0701.png">
+
+![image](https://user-images.githubusercontent.com/8049061/144051454-26a29057-9bc9-429e-87e4-7f582b57cac7.png)
 
 ### Installation and Setup
 
