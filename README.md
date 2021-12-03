@@ -12,7 +12,7 @@ _a Neovim Color Scheme_
 - Full customizability via `Treesitter` and non-Treesitter **HL** groups
 
 
-![image](https://user-images.githubusercontent.com/8049061/144051454-26a29057-9bc9-429e-87e4-7f582b57cac7.png)
+![image](https://user-images.githubusercontent.com/8049061/144603775-88c7dd41-e8e4-4267-a31b-d854d3583e20.png)
 
 ### Installation and Setup
 
