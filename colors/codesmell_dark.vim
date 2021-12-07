@@ -93,7 +93,7 @@ call s:HL('NonText', s:colors.grey, s:colors.none)
 " base color
 call s:HL('Normal', s:colors.foreground, s:colors.background)
 " ----------------------------------------------------
-call s:HL('Pmenu', s:colors.green, s:colors.background_lighter)
+call s:HL('Pmenu', s:colors.green, s:colors.black)
 call s:HL('PmenuSel', s:colors.foreground, s:colors.selected_bg)
 call s:HL('PmenuSbar', s:colors.terminal_background_nc, s:colors.terminal_background)
 call s:HL('PmenuThumb', s:colors.terminal_background_nc, s:colors.green)
@@ -163,7 +163,7 @@ call s:HL('Ignore', s:colors.none, s:colors.none)
 call s:HL('Error', s:colors.red, s:colors.none)
 call s:HL('Todo', s:colors.yellow, s:colors.none)
 
-" vim-lsp
+" lsp
 " ----------------------------------------------------
 call s:HL('LspErrorText', s:colors.red, s:colors.none)
 call s:HL('LspWarningText', s:colors.yellow, s:colors.none)
@@ -174,6 +174,7 @@ call s:HL('LspErrorHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('LspWarningHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('LspInformationHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('LspHintHighlight', s:colors.none, s:colors.none, s:colors.underline)
+call s:HL('FloatBorder', s:colors.green, s:colors.black)
 
 " ALE
 " ----------------------------------------------------
