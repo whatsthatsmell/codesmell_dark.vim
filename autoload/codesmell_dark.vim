@@ -31,7 +31,7 @@ let s:colors.neovim_blue = '#3791D4'
 let s:colors.selection_bg = '#7E7E7E'
 let s:colors.selection_fg = s:colors.background
 
-let s:colors.color_col = '#191919'
+let s:colors.color_col = '#161616'
 let s:colors.cursor_bg = s:colors.green
 let s:colors.cursor_fg = s:colors.background
 let s:colors.cursor_guide = '#1c2024'
