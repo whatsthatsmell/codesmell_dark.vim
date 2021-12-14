@@ -186,7 +186,7 @@ call s:HL('ALEError', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEWarning', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
-" Tree-sitter & language specific highlighting
+" Treesitter & language specific highlighting
 " ----------------------------------------------------
 call s:HL('TSComment', s:colors.dark_grey, s:colors.none)
 call s:HL('TSVariable', s:colors.light_bright_green, s:colors.none)
@@ -205,6 +205,9 @@ call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.bold)
 call s:HL('rustTSInclude', s:colors.magenta, s:colors.none, s:colors.bold)
 call s:HL('rustTSFuncMacro', s:colors.redish_white, s:colors.none)
 call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
+" --- markdown Treesitter
+call s:HL('TSPunctSpecial', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('TSTitle', s:colors.blue, s:colors.none, s:colors.bold)
 
 " Telescopic highlighting
 " ----------------------------------------------------
