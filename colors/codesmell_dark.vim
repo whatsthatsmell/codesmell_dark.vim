@@ -196,8 +196,13 @@ call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('TSStringRegex', s:colors.red, s:colors.none, s:colors.bold)
 " --- Language specific stuff
+" -- vimL
 call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
+" -- lua
 call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
+call s:HL('luaTSKeywordReturn', s:colors.neovim_green, s:colors.none)
+" -- javascript
+call s:HL('javascriptTSKeywordReturn', s:colors.green, s:colors.none)
 " --- a little Rust specific TS syntax highlighting
 call s:HL('rustTSType', s:colors.yellow_grey, s:colors.none, s:colors.none)
 call s:HL('rustTSLabel', s:colors.neovim_green, s:colors.none)
