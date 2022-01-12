@@ -204,7 +204,9 @@ call s:HL('luaTSKeywordReturn', s:colors.dodger_blue, s:colors.none)
 " -- javascript
 call s:HL('javascriptTSKeywordReturn', s:colors.green, s:colors.none)
 " --- a little Rust specific TS syntax highlighting
-call s:HL('rustTSType', s:colors.yellow_grey, s:colors.none, s:colors.none)
+call s:HL('rustTSType', s:colors.yellow, s:colors.none, s:colors.none)
+call s:HL('rustTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.none)
+call s:HL('rustFoldBraces', s:colors.neovim_green, s:colors.none, s:colors.none)
 call s:HL('rustTSLabel', s:colors.neovim_green, s:colors.none)
 call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.bold)
 call s:HL('rustTSInclude', s:colors.magenta, s:colors.none, s:colors.bold)
