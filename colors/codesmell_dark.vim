@@ -238,7 +238,7 @@ call s:HL('GitSignsCurrentLineBlame', s:colors.grey_green, s:colors.none)
 " used for virtual deleted lines as of 14-Jan-2022: 
 " https://github.com/lewis6991/gitsigns.nvim/pull/443#issuecomment-1013292087
 " https://github.com/lewis6991/gitsigns.nvim/pull/395
-call s:HL('GitSignsDeleteLn', s:colors.redish_white, s:colors.none)
+call s:HL('GitSignsDeleteVirtLn', s:colors.redish_white, s:colors.none)
 
 " diagnostics highlighting
 " ----------------------------------------------------
