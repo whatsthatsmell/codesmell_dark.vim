@@ -190,11 +190,14 @@ call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 " ----------------------------------------------------
 call s:HL('TSComment', s:colors.dark_grey, s:colors.none)
 call s:HL('TSVariable', s:colors.light_bright_green, s:colors.none)
+call s:HL('TSParameter', s:colors.yellow, s:colors.none)
 call s:HL('TSConstant', s:colors.bright_green, s:colors.none)
 call s:HL('TSMethod', s:colors.bright_green, s:colors.none)
 call s:HL('TSConstructor', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('TSStringRegex', s:colors.red, s:colors.none, s:colors.bold)
+call s:HL('TSDefinitionUsage', s:colors.white, s:colors.background_lighter)
+call s:HL('TSDefinition', s:colors.white, s:colors.background_lighter, s:colors.italic)
 " --- Language specific stuff
 " -- vimL
 call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
