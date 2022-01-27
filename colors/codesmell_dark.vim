@@ -210,7 +210,7 @@ call s:HL('rustFoldBraces', s:colors.neovim_green, s:colors.none, s:colors.none)
 call s:HL('rustTSLabel', s:colors.neovim_green, s:colors.none)
 call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.bold)
 call s:HL('rustTSInclude', s:colors.magenta, s:colors.none, s:colors.bold)
-call s:HL('rustTSFuncMacro', s:colors.redish_white, s:colors.none)
+call s:HL('rustTSFuncMacro', s:colors.light_blue_green, s:colors.bold)
 call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
 " --- markdown Treesitter
 call s:HL('TSPunctSpecial', s:colors.green, s:colors.none, s:colors.bold)
