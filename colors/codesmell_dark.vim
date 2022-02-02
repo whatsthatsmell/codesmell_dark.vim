@@ -242,6 +242,9 @@ call s:HL('GitSignsCurrentLineBlame', s:colors.grey_green, s:colors.none)
 " https://github.com/lewis6991/gitsigns.nvim/pull/443#issuecomment-1013292087
 " https://github.com/lewis6991/gitsigns.nvim/pull/395
 call s:HL('GitSignsDeleteVirtLn', s:colors.redish_white, s:colors.none)
+call s:HL('GitSignsAddVirtLnInline', s:colors.foreground, s:colors.mid_green)
+call s:HL('GitSignsChangeVirtLnInline', s:colors.foreground, s:colors.yellow)
+call s:HL('GitSignsDeleteVirtLnInline', s:colors.foreground, s:colors.bright_red)
 
 " diagnostics highlighting
 " ----------------------------------------------------
