@@ -213,17 +213,21 @@ call s:HL('tomlTSProperty', s:colors.neovim_blue, s:colors.none, s:colors.bold)
 call s:HL('tomlTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.none)
 " --- a little Rust specific TS syntax highlighting
 call s:HL('rustTSParameter', s:colors.bright_green, s:colors.none)
+call s:HL('rustTSKeyword', s:colors.dodger_blue, s:colors.none)
+call s:HL('rustTSKeywordFunction', s:colors.neovim_blue, s:colors.none)
 call s:HL('rustTSType', s:colors.yellow, s:colors.none, s:colors.none)
 call s:HL('rustTSString', s:colors.redish_white, s:colors.none, s:colors.italic)
+call s:HL('rustTSBoolean', s:colors.redish_white, s:colors.none, s:colors.bold)
 call s:HL('rustTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.none)
+call s:HL('rustTSConditional', s:colors.dodger_blue, s:colors.none)
 call s:HL('rustFoldBraces', s:colors.neovim_green, s:colors.none, s:colors.none)
 call s:HL('rustTSLabel', s:colors.red, s:colors.none)
 call s:HL('rustTSTypeBuiltin', s:colors.bright_purple, s:colors.bold)
 call s:HL('rustTSInclude', s:colors.magenta, s:colors.none, s:colors.bold)
-call s:HL('rustTSFuncMacro', s:colors.light_blue_green, s:colors.bold)
+call s:HL('rustTSFuncMacro', s:colors.bright_green, s:colors.none, s:colors.bold)
 call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
 " --- markdown Treesitter
-call s:HL('TSPunctSpecial', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('TSPunctSpecial', s:colors.bright_green, s:colors.none, s:colors.bold)
 call s:HL('TSTitle', s:colors.blue, s:colors.none, s:colors.bold)
 
 " Telescopic highlighting
