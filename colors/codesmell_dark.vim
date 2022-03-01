@@ -202,8 +202,10 @@ call s:HL('TSDefinition', s:colors.white, s:colors.background_lighter, s:colors.
 " -- vimL
 call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
 " -- lua
-call s:HL('luaTSString', s:colors.redish_white, s:colors.none)
+call s:HL('luaTSString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('luaTSKeywordReturn', s:colors.dodger_blue, s:colors.none)
+call s:HL('luaTSNumber', s:colors.green, s:colors.none)
+call s:HL('luaTSFuncBuiltin', s:colors.neovim_blue, s:colors.none)
 " -- javascript
 call s:HL('javascriptTSKeywordReturn', s:colors.green, s:colors.none)
 " -- TOML
