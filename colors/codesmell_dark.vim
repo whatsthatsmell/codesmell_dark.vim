@@ -214,6 +214,7 @@ call s:HL('tomlTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.n
 " --- a little Rust specific TS syntax highlighting
 call s:HL('rustTSParameter', s:colors.bright_green, s:colors.none)
 call s:HL('rustTSType', s:colors.yellow, s:colors.none, s:colors.none)
+call s:HL('rustTSString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('rustTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.none)
 call s:HL('rustFoldBraces', s:colors.neovim_green, s:colors.none, s:colors.none)
 call s:HL('rustTSLabel', s:colors.red, s:colors.none)
