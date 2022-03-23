@@ -136,7 +136,7 @@ call s:HL('Float', s:colors.cyan, s:colors.none)
 call s:HL('Identifier', s:colors.blue, s:colors.none)
 call s:HL('Function', s:colors.blue, s:colors.none)
 " ----------------------------------------------------
-call s:HL('rustAttribute', s:colors.red, s:colors.none, s:colors.bold)
+call s:HL('rustAttribute', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('Statement', s:colors.magenta, s:colors.none, s:colors.bold)
 call s:HL('Conditional', s:colors.cyan, s:colors.none, s:colors.bold)
 call s:HL('Repeat', s:colors.cyan, s:colors.none, s:colors.bold)
