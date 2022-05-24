@@ -207,7 +207,7 @@ call s:HL('luaTSKeywordReturn', s:colors.dodger_blue, s:colors.none)
 call s:HL('luaTSNumber', s:colors.green, s:colors.none)
 call s:HL('luaTSFuncBuiltin', s:colors.neovim_blue, s:colors.none)
 " -- javascript
-call s:HL('javascriptTSKeywordReturn', s:colors.green, s:colors.none)
+call s:HL('javascriptTSKeywordReturn', s:colors.blue_grey, s:colors.none)
 " -- TOML
 call s:HL('tomlTSProperty', s:colors.neovim_blue, s:colors.none, s:colors.bold)
 call s:HL('tomlTSPunctBracket', s:colors.neovim_green, s:colors.none, s:colors.none)
