@@ -69,7 +69,7 @@ call s:HL('Directory', s:colors.cyan, s:colors.none)
 call s:HL('DiffAdd', s:colors.green, s:colors.background)
 call s:HL('DiffChange', s:colors.yellow, s:colors.background)
 call s:HL('DiffDelete', s:colors.bright_red, s:colors.background)
-call s:HL('DiffText', s:colors.foreground, s:colors.background)
+call s:HL('DiffText', s:colors.redish_white, s:colors.background)
 " ----------------------------------------------------
 call s:HL('EndOfBuffer', s:colors.background, s:colors.none)
 " ----------------------------------------------------
