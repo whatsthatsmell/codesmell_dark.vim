@@ -259,8 +259,10 @@ call s:HL('GitSignsDeleteVirtLn', s:colors.redish_white, s:colors.none)
 call s:HL('GitSignsAddVirtLnInline', s:colors.foreground, s:colors.mid_green)
 call s:HL('GitSignsChangeVirtLnInline', s:colors.foreground, s:colors.yellow)
 call s:HL('GitSignsDeleteVirtLnInline', s:colors.foreground, s:colors.bright_red)
+" word diff in previews
+call s:HL('GitSignsDeleteInline', s:colors.foreground, s:colors.bright_red)
 
-" diagnostics highlighting
+" Diagnostics highlighting
 " ----------------------------------------------------
 call s:HL('DiagnosticsSignError', s:colors.bright_red, s:colors.none)
 call s:HL('DiagnosticSignWarn', s:colors.orange, s:colors.none)
@@ -276,6 +278,11 @@ call s:HL('CmpItemKindMethod', s:colors.bright_green, s:colors.none)
 call s:HL('CmpItemKindVariable', s:colors.light_bright_green, s:colors.none)
 call s:HL('CmpItemKindFunction', s:colors.blue, s:colors.none)
 call s:HL('CmpItemKindText', s:colors.redish_white, s:colors.none)
+
+" winbar
+" ----------------------------------------------------
+call s:HL('WinBar', s:colors.grey, s:colors.none)
+call s:HL('WinBarNC', s:colors.dark_grey, s:colors.none)
 
 " IndentBlanklineIndent highlighting
 " ----------------------------------------------------
