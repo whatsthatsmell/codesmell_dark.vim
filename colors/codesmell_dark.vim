@@ -53,6 +53,7 @@ call s:HL('markdownCodeDelimiter', s:colors.grey_green, s:colors.none, s:colors.
 call s:HL('markdownListMarker', s:colors.mid_green, s:colors.none, s:colors.bold)
 call s:HL('markdownLinkText', s:colors.dodger_blue, s:colors.none, s:colors.bold)
 call s:HL('markdownLink', s:colors.dodger_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownItalic', s:colors.foreground, s:colors.none, s:colors.italic)
 " ----------------------------------------------------
 call s:HL('ColorColumn', s:colors.none, s:colors.color_col)
 call s:HL('Conceal', s:colors.blue, s:colors.none)
@@ -232,7 +233,12 @@ call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
 " --- markdown Treesitter
 call s:HL('TSPunctSpecial', s:colors.bright_green, s:colors.none, s:colors.bold)
 call s:HL('TSTitle', s:colors.blue, s:colors.none, s:colors.bold)
-
+call s:HL('markdownTSPunctDelimiter', s:colors.grey, s:colors.none, s:colors.none)
+call s:HL('markdownTSTextReference', s:colors.dodger_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownTSURI', s:colors.dodger_blue, s:colors.none, s:colors.bold)
+call s:HL('markdownTSLiteral', s:colors.grey_green, s:colors.none, s:colors.none)
+call s:HL('markdownTSStrong', s:colors.foreground, s:colors.none, s:colors.bold)
+call s:HL('markdownTSEmphasis', s:colors.foreground, s:colors.none, s:colors.italic)
 " Telescopic highlighting
 " ----------------------------------------------------
 call s:HL('TelescopeMatching', s:colors.green, s:colors.none)
