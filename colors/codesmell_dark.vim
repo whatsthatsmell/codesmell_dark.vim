@@ -128,7 +128,7 @@ call s:HL('WildMenu', s:colors.background, s:colors.cyan)
 call s:HL('Comment', s:colors.grey, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Constant', s:colors.foreground, s:colors.none)
-call s:HL('String', s:colors.green, s:colors.none)
+call s:HL('String', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('Character', s:colors.green, s:colors.none)
 call s:HL('Number', s:colors.cyan, s:colors.none)
 call s:HL('Boolean', s:colors.cyan, s:colors.none)
