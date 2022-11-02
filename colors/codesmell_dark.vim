@@ -134,7 +134,7 @@ call s:HL('Number', s:colors.cyan, s:colors.none)
 call s:HL('Boolean', s:colors.cyan, s:colors.none)
 call s:HL('Float', s:colors.cyan, s:colors.none)
 call s:HL('@field', s:colors.dodger_blue, s:colors.none)
-call s:HL('@function.call', s:colors.light_blue_greener, s:colors.none)
+call s:HL('@function.call', s:colors.light_blue_green, s:colors.none)
 call s:HL('@namespace', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('@variable', s:colors.bright_green, s:colors.none)
 " ----------------------------------------------------
