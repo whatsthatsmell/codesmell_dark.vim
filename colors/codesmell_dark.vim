@@ -126,21 +126,8 @@ call s:HL('WildMenu', s:colors.background, s:colors.cyan)
 " standard syntax
 " ----------------------------------------------------
 call s:HL('Comment', s:colors.grey, s:colors.none)
-" ----------------------------------------------------
-call s:HL('Constant', s:colors.foreground, s:colors.none)
-call s:HL('String', s:colors.redish_white, s:colors.none, s:colors.italic)
-call s:HL('Character', s:colors.green, s:colors.none)
-call s:HL('Number', s:colors.cyan, s:colors.none)
-call s:HL('Boolean', s:colors.cyan, s:colors.none)
-call s:HL('Float', s:colors.cyan, s:colors.none)
-call s:HL('@field', s:colors.dodger_blue, s:colors.none)
-call s:HL('@function.call', s:colors.light_blue_green, s:colors.none)
-call s:HL('@namespace', s:colors.blue, s:colors.none, s:colors.bold)
-call s:HL('@variable', s:colors.bright_green, s:colors.none)
-call s:HL('@comment', s:colors.grey_green, s:colors.none, s:colors.bold)
-" ----------------------------------------------------
 call s:HL('Identifier', s:colors.blue, s:colors.none)
-call s:HL('Function', s:colors.blue, s:colors.none)
+call s:HL('Function', s:colors.bright_green, s:colors.none)
 " ----------------------------------------------------
 call s:HL('rustAttribute', s:colors.blue, s:colors.none, s:colors.bold)
 call s:HL('Statement', s:colors.magenta, s:colors.none, s:colors.bold)
@@ -204,6 +191,7 @@ call s:HL('TSString', s:colors.redish_white, s:colors.none, s:colors.italic)
 call s:HL('TSStringRegex', s:colors.red, s:colors.none, s:colors.bold)
 call s:HL('TSDefinitionUsage', s:colors.white, s:colors.background_lighter)
 call s:HL('TSDefinition', s:colors.white, s:colors.background_lighter, s:colors.italic)
+call s:HL('TSStructure', s:colors.red, s:colors.background_lighter, s:colors.italic)
 " --- Language specific stuff
 " -- vimL
 call s:HL('vimString', s:colors.redish_white, s:colors.none, s:colors.italic)
@@ -235,6 +223,20 @@ call s:HL('rustTSFuncMacro', s:colors.bright_green, s:colors.none, s:colors.bold
 call s:HL('rustTSConstBuiltin', s:colors.bright_green, s:colors.none, s:colors.bold)
 call s:HL('rustTSVariableBuiltin', s:colors.cyan, s:colors.none, s:colors.bold)
 call s:HL('rustTSNamespace', s:colors.cyan, s:colors.none)
+" ----------------------------------------------------
+call s:HL('Constant', s:colors.foreground, s:colors.none)
+call s:HL('String', s:colors.redish_white, s:colors.none, s:colors.italic)
+call s:HL('Character', s:colors.green, s:colors.none)
+call s:HL('Number', s:colors.cyan, s:colors.none)
+call s:HL('Boolean', s:colors.cyan, s:colors.none)
+call s:HL('Float', s:colors.cyan, s:colors.none)
+" -- Treesitter new style
+call s:HL('@field', s:colors.dodger_blue, s:colors.none)
+call s:HL('@function.call', s:colors.light_blue_green, s:colors.none)
+call s:HL('@namespace', s:colors.blue, s:colors.none, s:colors.bold)
+call s:HL('@variable', s:colors.bright_green, s:colors.none)
+call s:HL('@comment', s:colors.grey_green, s:colors.none, s:colors.bold)
+" ----------------------------------------------------
 " --- markdown Treesitter
 call s:HL('TSPunctSpecial', s:colors.bright_green, s:colors.none, s:colors.bold)
 call s:HL('TSTitle', s:colors.blue, s:colors.none, s:colors.bold)
