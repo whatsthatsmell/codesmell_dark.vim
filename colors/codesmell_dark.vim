@@ -134,7 +134,7 @@ call s:HL('Statement', s:colors.magenta, s:colors.none, s:colors.bold)
 call s:HL('Conditional', s:colors.cyan, s:colors.none, s:colors.bold)
 call s:HL('Repeat', s:colors.cyan, s:colors.none, s:colors.bold)
 call s:HL('Operator', s:colors.magenta, s:colors.none)
-call s:HL('Keyword', s:colors.magenta, s:colors.none, s:colors.bold)
+call s:HL('Keyword', s:colors.dodger_blue, s:colors.none, s:colors.bold)
 call s:HL('Exception', s:colors.cyan, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('PreProc', s:colors.cyan, s:colors.none)
